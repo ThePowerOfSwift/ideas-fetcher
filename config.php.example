@@ -1,0 +1,3 @@
+<?php
+
+const SLACK_WEBHOOK_URL = '';
