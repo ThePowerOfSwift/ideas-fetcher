@@ -9,7 +9,21 @@ This is a tool to get new ideas from tradingview.com by alert to your Slack when
 5. Setup cronjob to run `fetch.php` every minute.
 6. Done :)
 
-## Example
+### config.php file example
+```
+<?php
+
+const SLACK_WEBHOOK_URL = 'https://hooks.slack.com/services/...';
+```
+
+### users.txt file example
+```
+DianKemala
+EXCAVO
+DLavrov
+```
+
+### This is what alert looks like when it come to Slack
 After setup and a script found that there is a new idea has been published, it will push the alert to Slack like this.
 
 ![Example](https://image.prntscr.com/image/jBxXLRmWQR2I-flBuTmooA.png "Example")
